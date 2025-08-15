@@ -1,0 +1,4 @@
+Invoking command in '/shared_rocker_software/autonomous_ws/build/robot_odometry': /usr/bin/cmake --build /shared_rocker_software/autonomous_ws/build/robot_odometry -- -j16 -l16
+Invoked command in '/shared_rocker_software/autonomous_ws/build/robot_odometry' returned '0': /usr/bin/cmake --build /shared_rocker_software/autonomous_ws/build/robot_odometry -- -j16 -l16
+Invoking command in '/shared_rocker_software/autonomous_ws/build/robot_odometry': /usr/bin/cmake --install /shared_rocker_software/autonomous_ws/build/robot_odometry
+Invoked command in '/shared_rocker_software/autonomous_ws/build/robot_odometry' returned '0': /usr/bin/cmake --install /shared_rocker_software/autonomous_ws/build/robot_odometry

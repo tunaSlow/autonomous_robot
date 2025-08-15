@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="omni_robot">
+
+  <!-- === Parameters === -->
+  <xacro:property name="robot_radius" value="0.325"/> <!-- 65cm diameter -->
+  <xacro:property name="base_height" value="0.05"/>
+  <xacro:property name="wheel_radius" value="0.05"/>
+  <xacro:property name="wheel_thickness" value="0.02"/>
+
+  <!-- === Materials === -->
+  <material name="gray"><color rgba="0.6 0.6 0.6 1"/></material>
+  <material name="black"><color rgba="0 0 0 1"/></material>
+
+  <!-- === Base Footprint === -->
+  <link name="base_footprint"/>
+  <joint name="base_footprint_joint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- === Base Link === -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder radius="${robot_radius}" length="${base_height}"/>
+      </geometry>
+      <origin xyz="0 0 ${base_height / 2}" rpy="0 0 0"/>
+      <material name="gray"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="${robot_radius}" length="${base_height}"/>
+      </geometry>
+      <origin xyz="0 0 ${base_height / 2}" rpy="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="5.0"/>
+      <origin xyz="0 0 ${base_height / 2}" rpy="0 0 0"/>
+      <inertia ixx="0.1" iyy="0.1" izz="0.1" ixy="0.0" ixz="0.0" iyz="0.0"/>
+    </inertial>
+  </link>
+
+  <!-- === Wheel Macro === -->
+  <xacro:macro name="omni_wheel" params="name angle_deg">
+    <xacro:property name="x" value="${robot_radius * cos(angle_deg * pi / 180.0)}"/>
+    <xacro:property name="y" value="${robot_radius * sin(angle_deg * pi / 180.0)}"/>
+
+    <link name="${name}_link">
+      <visual>
+        <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_thickness}"/>
+        </geometry>
+        <origin xyz="0 0 0" rpy="0 1.5708 0"/>
+        <material name="black"/>
+      </visual>
+      <collision>
+        <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_thickness}"/>
+        </geometry>
+        <origin xyz="0 0 0" rpy="0 1.5708 0"/>
+      </collision>
+      <inertial>
+        <mass value="0.5"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="0.01" iyy="0.01" izz="0.01" ixy="0" ixz="0" iyz="0"/>
+      </inertial>
+    </link>
+
+    <joint name="${name}_joint" type="revolute">
+      <parent link="base_link"/>
+      <child link="${name}_link"/>
+      <origin xyz="${x} ${y} 0" rpy="0 0 0"/>
+      <axis xyz="0 0 1"/>
+      <limit effort="1.0" velocity="10.0" lower="-3.14" upper="3.14"/>
+    </joint>
+  </xacro:macro>
+
+  <!-- === Omni Wheels: 3 positions === -->
+  <xacro:omni_wheel name="wheel_front" angle_deg="0"/>
+  <xacro:omni_wheel name="wheel_left"  angle_deg="120"/>
+  <xacro:omni_wheel name="wheel_right" angle_deg="240"/>
+
+  <!-- === IMU Link === -->
+  <link name="imu_link">
+    <visual>
+      <geometry><box size="0.02 0.02 0.01"/></geometry>
+      <origin xyz="0 0 0.08" rpy="0 0 0"/>
+      <material name="black"/>
+    </visual>
+  </link>
+
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+    <origin xyz="0 0 0.08" rpy="0 0 0"/>
+  </joint>
+
+  <!-- === Camera Link (Intel RealSense D455) === -->
+  <link name="camera_link">
+    <visual>
+      <geometry><box size="0.09 0.025 0.025"/></geometry>
+      <origin xyz="0.2 0 0.12" rpy="0 0 0"/>
+      <material name="gray"/>
+    </visual>
+  </link>
+
+  <joint name="camera_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="camera_link"/>
+    <origin xyz="0.2 0 0.12" rpy="0 0 0"/>
+  </joint>
+
+</robot>
+

@@ -1,0 +1,23 @@
+[0.660s] Invoking command in '/shared_rocker_software/autonomous_ws/src/robot_vio': PYTHONPATH=/shared_rocker_software/autonomous_ws/build/robot_vio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared_rocker_software/autonomous_ws/install/robot_vio/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_vio build --build-base /shared_rocker_software/autonomous_ws/build/robot_vio/build install --record /shared_rocker_software/autonomous_ws/build/robot_vio/install.log --single-version-externally-managed install_data
+[0.827s] running egg_info
+[0.827s] writing ../../build/robot_vio/robot_vio.egg-info/PKG-INFO
+[0.828s] writing dependency_links to ../../build/robot_vio/robot_vio.egg-info/dependency_links.txt
+[0.828s] writing entry points to ../../build/robot_vio/robot_vio.egg-info/entry_points.txt
+[0.828s] writing requirements to ../../build/robot_vio/robot_vio.egg-info/requires.txt
+[0.828s] writing top-level names to ../../build/robot_vio/robot_vio.egg-info/top_level.txt
+[0.829s] reading manifest file '../../build/robot_vio/robot_vio.egg-info/SOURCES.txt'
+[0.829s] writing manifest file '../../build/robot_vio/robot_vio.egg-info/SOURCES.txt'
+[0.829s] running build
+[0.829s] running build_py
+[0.830s] running install
+[0.830s] running install_lib
+[0.831s] running install_data
+[0.831s] copying package.xml -> /shared_rocker_software/autonomous_ws/install/robot_vio/share/robot_vio
+[0.831s] creating /shared_rocker_software/autonomous_ws/install/robot_vio/share/robot_vio/launch
+[0.831s] copying launch/d455_vio_rtabmap.launch.py -> /shared_rocker_software/autonomous_ws/install/robot_vio/share/robot_vio/launch
+[0.831s] running install_egg_info
+[0.832s] removing '/shared_rocker_software/autonomous_ws/install/robot_vio/lib/python3.10/site-packages/robot_vio-0.0.0-py3.10.egg-info' (and everything under it)
+[0.832s] Copying ../../build/robot_vio/robot_vio.egg-info to /shared_rocker_software/autonomous_ws/install/robot_vio/lib/python3.10/site-packages/robot_vio-0.0.0-py3.10.egg-info
+[0.833s] running install_scripts
+[0.848s] writing list of installed files to '/shared_rocker_software/autonomous_ws/build/robot_vio/install.log'
+[0.872s] Invoked command in '/shared_rocker_software/autonomous_ws/src/robot_vio' returned '0': PYTHONPATH=/shared_rocker_software/autonomous_ws/build/robot_vio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared_rocker_software/autonomous_ws/install/robot_vio/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_vio build --build-base /shared_rocker_software/autonomous_ws/build/robot_vio/build install --record /shared_rocker_software/autonomous_ws/build/robot_vio/install.log --single-version-externally-managed install_data

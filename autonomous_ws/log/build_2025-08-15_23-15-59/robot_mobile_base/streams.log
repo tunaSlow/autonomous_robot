@@ -1,0 +1,21 @@
+[0.650s] Invoking command in '/shared_rocker_software/autonomous_ws/src/robot_mobile_base': PYTHONPATH=/shared_rocker_software/autonomous_ws/build/robot_mobile_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared_rocker_software/autonomous_ws/install/robot_mobile_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_mobile_base build --build-base /shared_rocker_software/autonomous_ws/build/robot_mobile_base/build install --record /shared_rocker_software/autonomous_ws/build/robot_mobile_base/install.log --single-version-externally-managed install_data
+[0.818s] running egg_info
+[0.819s] writing ../../build/robot_mobile_base/robot_mobile_base.egg-info/PKG-INFO
+[0.819s] writing dependency_links to ../../build/robot_mobile_base/robot_mobile_base.egg-info/dependency_links.txt
+[0.819s] writing entry points to ../../build/robot_mobile_base/robot_mobile_base.egg-info/entry_points.txt
+[0.819s] writing requirements to ../../build/robot_mobile_base/robot_mobile_base.egg-info/requires.txt
+[0.819s] writing top-level names to ../../build/robot_mobile_base/robot_mobile_base.egg-info/top_level.txt
+[0.820s] reading manifest file '../../build/robot_mobile_base/robot_mobile_base.egg-info/SOURCES.txt'
+[0.821s] writing manifest file '../../build/robot_mobile_base/robot_mobile_base.egg-info/SOURCES.txt'
+[0.821s] running build
+[0.821s] running build_py
+[0.821s] running install
+[0.821s] running install_lib
+[0.822s] running install_data
+[0.822s] running install_egg_info
+[0.823s] removing '/shared_rocker_software/autonomous_ws/install/robot_mobile_base/lib/python3.10/site-packages/robot_mobile_base-0.0.0-py3.10.egg-info' (and everything under it)
+[0.824s] Copying ../../build/robot_mobile_base/robot_mobile_base.egg-info to /shared_rocker_software/autonomous_ws/install/robot_mobile_base/lib/python3.10/site-packages/robot_mobile_base-0.0.0-py3.10.egg-info
+[0.824s] running install_scripts
+[0.839s] Installing serial_bridge_with_gui script to /shared_rocker_software/autonomous_ws/install/robot_mobile_base/lib/robot_mobile_base
+[0.840s] writing list of installed files to '/shared_rocker_software/autonomous_ws/build/robot_mobile_base/install.log'
+[0.861s] Invoked command in '/shared_rocker_software/autonomous_ws/src/robot_mobile_base' returned '0': PYTHONPATH=/shared_rocker_software/autonomous_ws/build/robot_mobile_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared_rocker_software/autonomous_ws/install/robot_mobile_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_mobile_base build --build-base /shared_rocker_software/autonomous_ws/build/robot_mobile_base/build install --record /shared_rocker_software/autonomous_ws/build/robot_mobile_base/install.log --single-version-externally-managed install_data

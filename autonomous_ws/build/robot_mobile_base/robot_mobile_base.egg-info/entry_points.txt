@@ -1,0 +1,3 @@
+[console_scripts]
+serial_bridge_with_gui = robot_mobile_base.serial_bridge_with_gui:main
+

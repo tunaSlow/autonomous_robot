@@ -1,0 +1,18 @@
+RTABMAP:
+  subscribe_depth: true
+  subscribe_rgb: true
+  subscribe_odom_info: true
+  subscribe_imu: true
+
+  queue_size: 30
+  approx_sync: true
+
+  # Odometry settings
+  RGBD/ProximityBySpace: false
+  RGBD/OptimizeFromGraphEnd: false
+  Reg/Force3DoF: false
+
+  # Frame IDs
+  frame_id: "base_link"
+  odom_frame_id: "odom"
+
