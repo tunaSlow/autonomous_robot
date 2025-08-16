@@ -1,7 +1,7 @@
 CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o: \
- /shared_rocker_software/autonomous_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp \
+ /shared_rocker_software/autonomous_robot/autonomous_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp \
  /usr/include/stdc-predef.h \
- /shared_rocker_software/autonomous_ws/src/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h \
+ /shared_rocker_software/autonomous_robot/autonomous_ws/src/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -208,10 +208,10 @@ CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o: \
  /usr/include/asm-generic/ioctl.h \
  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
- /shared_rocker_software/autonomous_ws/src/sllidar_ros2/./sdk/src/arch/linux/timer.h \
- /shared_rocker_software/autonomous_ws/src/sllidar_ros2/./sdk/src/hal/types.h \
- /shared_rocker_software/autonomous_ws/src/sllidar_ros2/./sdk/src/arch/linux/net_serial.h \
- /shared_rocker_software/autonomous_ws/src/sllidar_ros2/./sdk/src/hal/abs_rxtx.h \
+ /shared_rocker_software/autonomous_robot/autonomous_ws/src/sllidar_ros2/./sdk/src/arch/linux/timer.h \
+ /shared_rocker_software/autonomous_robot/autonomous_ws/src/sllidar_ros2/./sdk/src/hal/types.h \
+ /shared_rocker_software/autonomous_robot/autonomous_ws/src/sllidar_ros2/./sdk/src/arch/linux/net_serial.h \
+ /shared_rocker_software/autonomous_robot/autonomous_ws/src/sllidar_ros2/./sdk/src/hal/abs_rxtx.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \

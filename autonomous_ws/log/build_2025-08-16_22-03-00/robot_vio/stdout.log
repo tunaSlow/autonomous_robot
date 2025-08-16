@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/robot_vio/robot_vio.egg-info
+writing ../../build/robot_vio/robot_vio.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_vio/robot_vio.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_vio/robot_vio.egg-info/entry_points.txt
+writing requirements to ../../build/robot_vio/robot_vio.egg-info/requires.txt
+writing top-level names to ../../build/robot_vio/robot_vio.egg-info/top_level.txt
+writing manifest file '../../build/robot_vio/robot_vio.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_vio/robot_vio.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_vio/robot_vio.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /shared_rocker_software/autonomous_robot/autonomous_ws/build/robot_vio/build
+creating /shared_rocker_software/autonomous_robot/autonomous_ws/build/robot_vio/build/lib
+creating /shared_rocker_software/autonomous_robot/autonomous_ws/build/robot_vio/build/lib/robot_vio
+copying robot_vio/__init__.py -> /shared_rocker_software/autonomous_robot/autonomous_ws/build/robot_vio/build/lib/robot_vio
+running install
+running install_lib
+creating /shared_rocker_software/autonomous_robot/autonomous_ws/install/robot_vio/lib/python3.10/site-packages/robot_vio
+copying /shared_rocker_software/autonomous_robot/autonomous_ws/build/robot_vio/build/lib/robot_vio/__init__.py -> /shared_rocker_software/autonomous_robot/autonomous_ws/install/robot_vio/lib/python3.10/site-packages/robot_vio
+byte-compiling /shared_rocker_software/autonomous_robot/autonomous_ws/install/robot_vio/lib/python3.10/site-packages/robot_vio/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /shared_rocker_software/autonomous_robot/autonomous_ws/install/robot_vio/share/ament_index
+creating /shared_rocker_software/autonomous_robot/autonomous_ws/install/robot_vio/share/ament_index/resource_index
+creating /shared_rocker_software/autonomous_robot/autonomous_ws/install/robot_vio/share/ament_index/resource_index/packages
+copying resource/robot_vio -> /shared_rocker_software/autonomous_robot/autonomous_ws/install/robot_vio/share/ament_index/resource_index/packages
+copying package.xml -> /shared_rocker_software/autonomous_robot/autonomous_ws/install/robot_vio/share/robot_vio
+creating /shared_rocker_software/autonomous_robot/autonomous_ws/install/robot_vio/share/robot_vio/launch
+copying launch/d455_vio_rtabmap.launch.py -> /shared_rocker_software/autonomous_robot/autonomous_ws/install/robot_vio/share/robot_vio/launch
+running install_egg_info
+Copying ../../build/robot_vio/robot_vio.egg-info to /shared_rocker_software/autonomous_robot/autonomous_ws/install/robot_vio/lib/python3.10/site-packages/robot_vio-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/shared_rocker_software/autonomous_robot/autonomous_ws/build/robot_vio/install.log'

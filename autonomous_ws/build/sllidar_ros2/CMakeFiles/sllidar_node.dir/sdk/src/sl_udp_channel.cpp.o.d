@@ -1,7 +1,7 @@
 CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o: \
- /shared_rocker_software/autonomous_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp \
+ /shared_rocker_software/autonomous_robot/autonomous_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp \
  /usr/include/stdc-predef.h \
- /shared_rocker_software/autonomous_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h \
+ /shared_rocker_software/autonomous_robot/autonomous_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -142,9 +142,9 @@ CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /shared_rocker_software/autonomous_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h \
- /shared_rocker_software/autonomous_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h \
- /shared_rocker_software/autonomous_ws/src/sllidar_ros2/./sdk/include/sl_types.h \
- /shared_rocker_software/autonomous_ws/src/sllidar_ros2/sdk/src/hal/abs_rxtx.h \
- /shared_rocker_software/autonomous_ws/src/sllidar_ros2/./sdk/src/hal/types.h \
- /shared_rocker_software/autonomous_ws/src/sllidar_ros2/sdk/src/hal/socket.h
+ /shared_rocker_software/autonomous_robot/autonomous_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h \
+ /shared_rocker_software/autonomous_robot/autonomous_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h \
+ /shared_rocker_software/autonomous_robot/autonomous_ws/src/sllidar_ros2/./sdk/include/sl_types.h \
+ /shared_rocker_software/autonomous_robot/autonomous_ws/src/sllidar_ros2/sdk/src/hal/abs_rxtx.h \
+ /shared_rocker_software/autonomous_robot/autonomous_ws/src/sllidar_ros2/./sdk/src/hal/types.h \
+ /shared_rocker_software/autonomous_robot/autonomous_ws/src/sllidar_ros2/sdk/src/hal/socket.h
