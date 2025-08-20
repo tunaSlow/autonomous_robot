@@ -1,0 +1,17 @@
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/robot_odometry/config/rtabmap_params.yaml
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/robot_odometry/config/ekf.yaml
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/ament_index/resource_index/package_run_dependencies/robot_odometry
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/ament_index/resource_index/parent_prefix_path/robot_odometry
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/robot_odometry/environment/ament_prefix_path.sh
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/robot_odometry/environment/ament_prefix_path.dsv
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/robot_odometry/environment/path.sh
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/robot_odometry/environment/path.dsv
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/robot_odometry/local_setup.bash
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/robot_odometry/local_setup.sh
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/robot_odometry/local_setup.zsh
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/robot_odometry/local_setup.dsv
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/robot_odometry/package.dsv
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/ament_index/resource_index/packages/robot_odometry
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/robot_odometry/cmake/robot_odometryConfig.cmake
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/robot_odometry/cmake/robot_odometryConfig-version.cmake
+/shared_rocker_software/autonomous_robot/install/robot_odometry/share/robot_odometry/package.xml

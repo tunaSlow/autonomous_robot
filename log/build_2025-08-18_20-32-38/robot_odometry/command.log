@@ -1,0 +1,4 @@
+Invoking command in '/shared_rocker_software/autonomous_robot/build/robot_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /shared_rocker_software/autonomous_robot/build/robot_odometry -- -j16 -l16
+Invoked command in '/shared_rocker_software/autonomous_robot/build/robot_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /shared_rocker_software/autonomous_robot/build/robot_odometry -- -j16 -l16
+Invoking command in '/shared_rocker_software/autonomous_robot/build/robot_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /shared_rocker_software/autonomous_robot/build/robot_odometry
+Invoked command in '/shared_rocker_software/autonomous_robot/build/robot_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /shared_rocker_software/autonomous_robot/build/robot_odometry
